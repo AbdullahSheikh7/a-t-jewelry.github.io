@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Concert+One&family=Dancing+Script&display=swap');
+
+:root {
+    --primary-color: rgb(218, 165, 32);
+    --secondary-color: rgb(193, 139, 5);
+    --alternative-color: rgb(116, 107, 3);
+    --white-color: #FFF;
+    --black-color: #000;
+    --primary-font: "Concert One", cursive;
+    --secondary-font: "Dancing Script", cursive;
+    --alternative-font: "Belanosima", sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+.flexcenterxy {
+    align-items: center;
+    justify-content: center;
+}
+
+.flexcenterx {
+    align-items: center;
+}
+
+.flexcentery {
+    justify-content: center;
+}
+
+.top-0 {
+    top: 0;
+    z-index: 1;
+}

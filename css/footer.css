@@ -1,0 +1,83 @@
+footer {
+    color: white;
+    background-color: var(--alternative-color);
+    font-family: var(--primary-font);
+}
+
+#about-subscribe {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#about {
+    margin: 50px auto;
+    width: fit-content;
+}
+
+#about #logo-container {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+}
+
+#logo-container img {
+    margin: auto;
+    display: block;
+}
+
+#subscribe {
+    margin: 50px auto;
+    width: 300px;
+}
+
+#subscribe-form {
+    margin: 25px 0;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+#subscribe-form * {
+    margin: 5px;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+    font-family: var(--alternative-font);
+    padding: 5px;
+}
+
+#subscribe-form input:first-child {
+    height: 75%;
+}
+
+#subscribe-form input:last-child {
+    color: white;
+    background-color: var(--secondary-color);
+    transition: all 100ms linear;
+}
+
+#subscribe-form input:last-child:hover {
+    box-shadow: inset 0 0 10px goldenrod;
+}
+
+#copyright {
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+}
+
+@media (max-width: 800px) {
+    #about-subscribe {
+        grid-template-columns: none;
+        grid-template-rows: 1fr 1fr;
+        padding: 25px 0;
+    }
+
+    #about {
+        margin: 25px 50px;
+    }
+
+    #subscribe {
+        margin: 25px 50px;
+    }
+}

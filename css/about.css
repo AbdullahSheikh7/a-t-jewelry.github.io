@@ -1,0 +1,61 @@
+#mobile {
+    display: none;
+}
+
+main a {
+    fill: black;
+    margin: 15px;
+}
+
+main h1, main h3 {
+    font-family: var(--primary-font);
+    line-height: 50px;
+}
+
+.credits {
+    display: flex;
+    width: 80%;
+    margin: 100px auto;
+}
+
+.credits img {
+    margin: 15px;
+}
+
+.first {
+    text-align: end;
+}
+
+main p {
+    font-family: var(--primary-font);
+}
+
+main img {
+    border-radius: 25px;
+    border: 5px solid goldenrod;
+    width: 250px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+@media (max-width: 700px) {
+    #laptop {
+        display: none;
+    }
+
+    #mobile {
+        display: block;
+    }
+
+    main * {
+        text-align: center;
+    }
+
+    .credits {
+        flex-direction: column;
+    }
+
+    .credits img {
+        margin: 15px auto;
+    }
+}

@@ -1,0 +1,90 @@
+#shortcut-container {
+    display: flex;
+    background-image: url("../img/deco-bg-1_16-9.jpg");
+    background-size: cover;
+    padding: 30px;
+    background-position: center;
+    justify-content: space-around;
+}
+
+#landing-title {
+    margin: 150px 100px;
+    display: inline;
+    height: fit-content;
+}
+
+#landing-title h1 {
+    color: yellow;
+    font-size: 5rem;
+    font-family: var(--primary-font);
+}
+
+#landing-title p {
+    color: white;
+    font-size: 2em;
+    font-family: var(--secondary-font);
+}
+
+.shortcut {
+    background-size: 125%;
+    text-align: center;
+    background-position: center;
+    width: 400px;
+    padding: 180px 0 50px 0;
+    font-family: var(--secondary-font);
+    color: white;
+    font-size: 2em;
+    border-radius: 50%;
+    margin: 15px;
+    border: 15px solid white;
+    box-shadow: inset 0 -50px 100px black;
+    transition: all 100ms linear;
+}
+
+#shortcut-1 {
+    background-image: url("../img/deco-bracelet_16-9.jpg");
+}
+
+#shortcut-2 {
+    background-image: url("../img/deco-ring_16-9.jpg");
+    position: relative;
+    top: -80px;
+    left: -120px;
+}
+
+.shortcut:hover {
+    background-size: 100%;
+    background-position: center;
+    box-shadow: inset 0 -100px 100px black;
+}
+
+@media (max-width: 1000px) {
+    #shortcut-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #shortcut-2 {
+        position: static;
+        margin-bottom: 150px;
+    }
+
+    #landing-title {
+        padding: 0;
+        margin: 100px 0;
+    }
+
+    #landing-title h1 {
+        text-align: center;
+    }
+
+    #landing-title p {
+        text-align: center;
+    }
+}
+
+@media (max-width: 550px) {
+    .shortcut {
+        display: none;
+    }
+}

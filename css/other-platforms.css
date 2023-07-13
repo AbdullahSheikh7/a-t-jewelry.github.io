@@ -1,0 +1,29 @@
+#platforms-links {
+    font-family: var(--primary-font);
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    background: white;
+    z-index: 1; 
+}
+
+#platforms-links p {
+    padding: 10px;
+}
+
+#platforms-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.source-links {
+    margin: 20px auto;
+    width: 40%;
+    background-size: cover;
+    background-position: center;
+    transition: all 100ms linear;
+}
+
+.source-links:hover {
+    transform: scale(1.1);
+}
