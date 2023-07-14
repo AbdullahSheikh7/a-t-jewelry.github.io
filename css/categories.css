@@ -18,16 +18,16 @@
 }
 
 #bracelets {
-    background-image: url("../img/categories/bracelets.webp");
+    background-image: url("../img/categories/bracelets.jpg");
 }
 #rings {
-    background-image: url("../img/categories/rings.webp");
+    background-image: url("../img/categories/rings.jpg");
 }
 #earrings {
     background-image: url("../img/categories/earrings.jpg");
 }
 #necklace {
-    background-image: url("../img/categories/necklaces.webp");
+    background-image: url("../img/categories/necklaces.jpg");
 }
 
 .category {
@@ -43,9 +43,9 @@
 }
 
 .category:hover {
-    background-size: 110%;
     color: rgba(256, 256, 256, 1);
     cursor: pointer;
+    background-size: 120%;
     background-position: center;
     box-shadow: inset 0 0 0 10px var(--secondary-color);
 }

@@ -32,7 +32,19 @@
     justify-content: center;
 }
 
-.top-0 {
-    top: 0;
-    z-index: 1;
+button {
+    cursor: pointer;
+    background: var(--alternative-color);
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-family: var(--primary-font);
+    font-size: 1em;
+    transition: all 100ms linear;
+}
+
+button:hover {
+    box-shadow: 0 0 50px var(--alternative-color);
 }

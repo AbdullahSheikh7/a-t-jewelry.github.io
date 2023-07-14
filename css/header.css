@@ -48,6 +48,7 @@ header svg {
     background: white;
     align-items: center;
     fill: black;
+    position: relative;
     z-index: 1;
     box-shadow: 0 0 10px 0px black;
 }
@@ -71,24 +72,23 @@ header svg {
 }
 
 nav {
-    z-index: -1;
-    position: relative;
-    transition: all 100ms linear, z-index 0ms linear;
-    top: -28px;
+    margin: auto;
+    width: 0;
+    height: 100%;
     background-color: darkgray;
 }
 
 nav ul {
     margin: auto;
     width: 30%;
-    display: flex;
+    display: none;
     list-style: none;
     justify-content: space-evenly;
 }
 
 nav ul li {
     margin: 5px;
-    transition: all 100ms linear;
+    transition: all 0ms linear;
 }
 
 nav ul li:hover {
@@ -112,5 +112,23 @@ nav ul li a {
 
     #other-options svg {
         margin: 5px 8px;
+    }
+}
+
+@keyframes width {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes width-reverse {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0%;
     }
 }
