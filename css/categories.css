@@ -18,16 +18,16 @@
 }
 
 #bracelets {
-    background-image: url("../img/categories/bracelets.jpg");
+    background-image: url("../img/categories/bracelets.webp");
 }
 #rings {
-    background-image: url("../img/categories/rings.jpg");
+    background-image: url("../img/categories/rings.webp");
 }
 #earrings {
-    background-image: url("../img/categories/earrings.jpg");
+    background-image: url("../img/categories/earrings.webp");
 }
-#necklace {
-    background-image: url("../img/categories/necklaces.jpg");
+#necklaces {
+    background-image: url("../img/categories/necklaces.webp");
 }
 
 .category {

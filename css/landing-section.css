@@ -1,6 +1,6 @@
 #shortcut-container {
     display: flex;
-    background-image: url("../img/deco-bg-1_16-9.jpg");
+    background-image: url("../img/deco-bg-1_16-9.webp");
     background-size: cover;
     padding: 30px;
     background-position: center;
@@ -42,11 +42,11 @@
 }
 
 #shortcut-1 {
-    background-image: url("../img/deco-bracelet_16-9.jpg");
+    background-image: url("../img/deco-bracelet_16-9.webp");
 }
 
 #shortcut-2 {
-    background-image: url("../img/deco-ring_16-9.jpg");
+    background-image: url("../img/deco-ring_16-9.webp");
     position: relative;
     top: -80px;
     left: -120px;
